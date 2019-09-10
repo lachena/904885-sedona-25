@@ -92,23 +92,23 @@
         </section>
 
         <!-- MAIN modal search -->
-        <div class="modal-search">
+        <div class="modal-search main-container">
           <form action="URL" class="search-form" method="POST">
-            <p class="search-item">
+            <p class="search-item search-item-calendar">
               <label class="search-item-title" for="date-in">Дата заезда:</label>
-              <input class="search-item-field" type="text" id="date-in" placeholder="24 апреля 2017">
+              <input class="search-item-field" type="text" id="date-in" value="24 апреля 2017">
             </p>
-            <p class="search-item">
+            <p class="search-item search-item-calendar">
               <label class="search-item-title" for="date-out">Дата выезда:</label>
-              <input class="search-item-field" type="text" id="date-out" placeholder="4 июля 2017">
+              <input class="search-item-field" type="text" id="date-out" value="4 июля 2017">
             </p>
-            <p class="search-item">
+            <p class="search-item search-item-adult">
               <label class="search-item-title" for="adults">Взрослые:</label>
-              <input class="search-item-field" type="text" id="adults" placeholder="2">
+              <input class="search-item-field" type="text" id="adults" value="2">
             </p>
-            <p class="search-item">
+            <p class="search-item search-item-kids">
               <label class="search-item-title" for="kids">Дети:</label>
-              <input class="search-item-field" type="text" id="kids" placeholder="0">
+              <input class="search-item-field" type="text" id="kids" value="0">
             </p>
             <button class="button-search" aria-label="Найти">Найти</button>
           </form>
@@ -126,28 +126,33 @@
       <footer class="main-footer main-container">
 
         <div class="main-footer-info">
-          <p class="footer-hash">#visitsedona</p>
+          <p class="footer-hash">
+            <a href="#visitsedona" class="footer-hash-link">#visitsedona</a>
+          </p>
         </div>
 
         <ul class="footer-social-list">
           <li class="footer-social-item">
             <a href="twitter.html" class="footer-social-link" target="_blank">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="15" viewBox="0 0 17 15">
+              <svg class="footer-social-link-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="15" viewBox="0 0 17 15">
                 <image id="t" width="17" height="15" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAQAAACouOyaAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjCQQPEzCSHACpAAAAzklEQVQoz3WRvQpBYRyHf75SkolFSlldgTLJDVhsBotYFHfgFk4WZTAYXIFiViaT3AAppZzNodPxGHQ4B+fZ3n5P/69XxAnJB1lWONyYkCRDWfRZE/EIea64mDxoihmwI/VWlnhxWIghABZdopLEzaeYFEXh/byzYczDp7Ql0eNAMDUprLxyCmYviYxng29sYq8dSpgBykqSwpIcpQLaTN1LhNj9rXEi8bloGuPPRHU3rtLC4PwjDD4Vxlg/8YWG/2crjNhiA3BkToekN38CQPI7zmHIx8AAAAAASUVORK5CYII="/>
+                <title>Twitter</title>
               </svg>
             </a>
           </li>
           <li class="footer-social-item">
             <a href="facebook.html" class="footer-social-link" target="_blank">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="22" viewBox="0 0 12 22">
+              <svg class="footer-social-link-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="22" viewBox="0 0 12 22">
                 <image id="fb-icon" width="12" height="22" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAWCAQAAABeMbWRAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjCQQPFBoG5l+4AAAAVElEQVQoz2NggIP/Bv93/v/1HwqQhb/9RwIIiZ3/UQAjXOIXAysDEoBK/Gdk+AcVUWD4iKyAAW6GAITPxIAD4JRgRHIYcTrIsQPqPIb3NPPH4JQAAMxOR+EfSfRoAAAAAElFTkSuQmCC"/>
+                <title>Facebook</title>
               </svg>
             </a>
           </li>
           <li class="footer-social-item">
             <a href="youtube.html" class="footer-social-link" target="_blank">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="16" viewBox="0 0 20 16">
+              <svg class="footer-social-link-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="16" viewBox="0 0 20 16">
                 <image id="youtube" width="20" height="16" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAQAAAC8EZeQAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjCQQPFCzJXMohAAAAmUlEQVQoz5WSsQ3CQAxF3wUEA6S7jgpGYAYqapYhNTADUzAEKFXqSDAETaSI+zSRwsERjCvLfrL8v428KrUailalvNOVGb/j5vQgM4DBSQYM3qYVXGxg5ZYsOBESZKRv3dVyHdXE0pMggCba6d63hhWP+nSc6itnz4bpa+0D1JwDq4S30Y5bnb/d8Q/Dg4kLGbUJrJFXaXmzJ+Whw8Ghbbm9AAAAAElFTkSuQmCC"/>
+                <title>Youtube</title>
               </svg>
             </a>
           </li>
@@ -157,7 +162,7 @@
           <p class="footer-copyright-info">
             website by
             <a href="https://htmlacademy.ru/intensive/htmlcss" class="copyright-logo">
-              <img class="copyright-logo-img" src="img/logo_html_ac.png" alt="Логотип HTML Academy" width="115" height="41">
+              <!-- <img class="copyright-logo-img" src="img/logo_html_ac.png" alt="Логотип HTML Academy" width="115" height="41"> -->
             </a>
           </p>
         </div>
