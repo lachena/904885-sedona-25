@@ -39,10 +39,6 @@ img {
     font-family: "PTSans", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
     text-align: center;
     color: #000000;
     text-transform: uppercase;
@@ -155,8 +151,7 @@ img {
 .reasons-item-info-grey {
     padding: 0 52px;
 }
-.reasons-list .reasons-item:first-child,
-.reasons-list .reasons-item:nth-child(2){
+.reasons-item-blue {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -180,10 +175,10 @@ img {
 .reasons-list .reasons-item:nth-child(2) .reasons-item-info {
     padding: 0 45px 59px 845px;
 }
-.reasons-list .reasons-item:first-child {
+.reasons-item-blue:first-child {
     position: relative;
 }
-.reasons-item:first-child::after {
+.reasons-item-blue:first-child::after {
     content: "";
     position: absolute;
     z-index: 1;
@@ -195,10 +190,10 @@ img {
     background-position: 0 0;
     background-repeat: no-repeat;
 }
-.reasons-list .reasons-item:nth-child(2) {
+.reasons-item-blue:nth-child(2) {
     position: relative;
 }
-.reasons-item:nth-child(2)::before {
+.reasons-item-blue:nth-child(2)::before {
     content: "";
     position: absolute;
     z-index: 1;
@@ -279,12 +274,9 @@ img {
     line-height: 21px;
     color: #333333;
 }
-.reasons-item:first-child .reasons-item-title,
-.reasons-item:first-child .reasons-item-number,
-.reasons-item:first-child .reasons-item-info,
-.reasons-item:nth-child(2) .reasons-item-title,
-.reasons-item:nth-child(2) .reasons-item-number,
-.reasons-item:nth-child(2) .reasons-item-info {
+.reasons-item-title-blue,
+.reasons-item-number-blue,
+.reasons-item-info-blue {
     color: #ffffff;
 }
 
